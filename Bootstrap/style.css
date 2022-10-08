@@ -1,0 +1,23 @@
+body{
+    background-color: #f1fbff;
+}
+
+.navbar-brand{
+    font-weight: 700;font-size: xx-large;
+}
+.nav-link:hover{
+    color: red !important;
+}
+
+.margin{
+    margin-top: 10% !important;
+}
+i{
+    font-size: 400% ;
+}
+.myServices{
+    background-color:#212529 !important;
+    color: white !important;
+    margin-left: 2px;
+    height: 45vh !important;
+}

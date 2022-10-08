@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+
+
+
+    "></script>
+  </head>
+  <script>
+    $(document).ready(function () {
+      $(".loginButton").click(function () {
+        $(".loginSuccess").slideDown(5000).slideUp(5000 , function(){
+          document.write("Transition has been completed")
+        } ).css("color", "brown");
+        // $(".loginButton").hide();
+      });
+      $("#stop").click(function () {
+        $(".loginSuccess").stop().css("background-color", "red");
+      });
+    });
+  </script>
+  <body>
+    <h2
+      class="loginSuccess"
+      style="
+        background-color: rgb(155, 221, 155);
+        color: green;
+        font-style: italic;
+        display: none;
+      "
+    >
+      Login Success
+    </h2>
+    <button class="loginButton">Login</button>
+    <button id="stop">Stop</button>
+  </body>
+</html>
