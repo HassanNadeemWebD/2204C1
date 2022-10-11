@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Describing Email Document -->
+
+<Emails>
+    <Email>
+
+        <to>
+        abc@gmail.com
+    </to>
+        <from>
+        def@gmail.com
+    </from>
+        <subject>
+    my subject
+    </subject>
+        <greeting>
+        Thank You 
+    </greeting>
+
+    </Email>
+    <Email>
+
+        <to>
+        abc@gmail.com
+    </to>
+        <from>
+        def@gmail.com
+    </from>
+        <subject>
+    my subject
+    </subject>
+        <greeting>
+        Thank You 
+    </greeting>
+
+    </Email>
+</Emails>
