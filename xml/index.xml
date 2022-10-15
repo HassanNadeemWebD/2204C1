@@ -1,39 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
+<!DOCTYPE Emails [
+    <!ELEMENT Emails (abc:Email ,def:Email)>
+    <!ELEMENT abc:Email (abc:to , abc:from , abc:subject, abc:greeting)>
+    <!ELEMENT abc:to (#PCDATA)>
+    <!ELEMENT abc:from (#PCDATA)>
+    <!ELEMENT abc:subject (#PCDATA)>
+    <!ELEMENT abc:greeting (#PCDATA)>
+    <!ELEMENT def:Email (def:to , def:from , def:subject, def:greeting)>
+    <!ELEMENT def:to (#PCDATA)>
+    <!ELEMENT def:from (#PCDATA)>
+    <!ELEMENT def:subject (#PCDATA)>
+    <!ELEMENT def:greeting (#PCDATA)>
+]>
 <!-- Describing Email Document -->
-
 <Emails>
-    <Email>
-
-        <to>
-        abc@gmail.com
-    </to>
-        <from>
-        def@gmail.com
-    </from>
-        <subject>
-    my subject
-    </subject>
-        <greeting>
-        Thank You 
-    </greeting>
-
-    </Email>
-    <Email>
-
-        <to>
-        abc@gmail.com
-    </to>
-        <from>
-        def@gmail.com
-    </from>
-        <subject>
-    my subject
-    </subject>
-        <greeting>
-        Thank You 
-    </greeting>
-
-    </Email>
+    <abc:Email>
+      
+        <abc:to>
+            abc@gmail.com
+        </abc:to>
+        <abc:from>
+            def@gmail.com
+        </abc:from>
+        <abc:subject>
+        my subject
+        </abc:subject>
+        <abc:greeting>
+            Thank You 
+        </abc:greeting>
+    </abc:Email>
+    <def:Email>
+        <def:to>
+            abc@gmail.com
+        </def:to>
+        <def:from>
+            def@gmail.com
+        </def:from>
+        <def:subject>
+        my subject
+        </def:subject>
+        <def:greeting>
+            Thank You 
+        </def:greeting>
+    </def:Email>
 </Emails>
