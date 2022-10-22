@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Emails [
+<?xml-model href="file.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <!DOCTYPE Emails [
     <!ELEMENT Emails (abc:Email ,def:Email)>
     <!ELEMENT abc:Email (abc:to , abc:from , abc:subject, abc:greeting)>
     <!ELEMENT abc:to (#PCDATA)>
@@ -11,12 +12,16 @@
     <!ELEMENT def:from (#PCDATA)>
     <!ELEMENT def:subject (#PCDATA)>
     <!ELEMENT def:greeting (#PCDATA)>
-]>
+    <!ATTLIST abc:to color CDATA #REQUIRED>
+    <!ATTLIST Emails xmlns:abc CDATA #REQUIRED>
+    <!ATTLIST Emails xmlns:def CDATA #REQUIRED>
+
+]> -->
 <!-- Describing Email Document -->
-<Emails>
+<Emails xmlns:abc="https://www.google.com" xmlns:def="https://www.google.com">
     <abc:Email>
-      
-        <abc:to>
+
+        <abc:to color="red">
             abc@gmail.com
         </abc:to>
         <abc:from>

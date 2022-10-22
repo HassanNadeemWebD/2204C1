@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE companies [
+    <!ELEMENT companies (company ,company,company,company)>
+    <!ELEMENT company (empNum,empName,empSalary)>
+    <!ELEMENT empNum (#PCDATA)>
+    <!ELEMENT empName (#PCDATA)>
+    <!ELEMENT empSalary (#PCDATA)>
+    <!ELEMENT company (empNum,empName,empSalary)>
+    <!ELEMENT empNum (#PCDATA)>
+    <!ELEMENT empName (#PCDATA)>
+    <!ELEMENT empSalary (#PCDATA)>
+    <!ELEMENT company (empNum,empName,empSalary)>
+    <!ELEMENT empNum (#PCDATA)>
+    <!ELEMENT empName (#PCDATA)>
+    <!ELEMENT empSalary (#PCDATA)>
+    <!ELEMENT company (empNum,empName,empSalary)>
+    <!ELEMENT empNum (#PCDATA)>
+    <!ELEMENT empName (#PCDATA)>
+    <!ELEMENT empSalary (#PCDATA)>
+
+]>
+
+<companies>
+
+
+    <company>
+        <empNum></empNum>
+        <empName></empName>
+        <empSalary></empSalary>
+    </company>
+    <company>
+        <empNum></empNum>
+        <empName></empName>
+        <empSalary></empSalary>
+    </company>
+    <company>
+        <empNum></empNum>
+        <empName></empName>
+        <empSalary></empSalary>
+    </company>
+    <company>
+        <empNum></empNum>
+        <empName></empName>
+        <empSalary></empSalary>
+    </company>
+</companies>

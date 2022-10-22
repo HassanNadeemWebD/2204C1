@@ -1,0 +1,15 @@
+*{
+
+background-color: rgb(238, 238, 238);
+
+
+
+}
+from{
+    display: block;
+    background-color: aqua;
+    text-align: center;
+}
+#to1{
+    background-color: red;
+}
