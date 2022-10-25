@@ -13,15 +13,22 @@
   </head>
   <script>
     $(document).ready(function () {
-      $(".loginButton").click(function () {
-        $(".loginSuccess").slideDown(5000).slideUp(5000 , function(){
-          document.write("Transition has been completed")
-        } ).css("color", "brown");
-        // $(".loginButton").hide();
-      });
-      $("#stop").click(function () {
-        $(".loginSuccess").stop().css("background-color", "red");
-      });
+      // $(".loginButton").click(function () {
+      //   $(".loginSuccess").slideDown(5000).slideUp(5000 , function(){
+      //     document.write("Transition has been completed")
+      //   } ).css("color", "brown");
+      //   // $(".loginButton").hide();
+      // });
+      // $("#stop").click(function () {
+      //   $(".loginSuccess").stop().css("background-color", "red");
+
+      // }); 
+      $(".loginButton").click(()=>{
+        console.log("Hello")
+        $(".loginSuccess").load("demo.txt");
+
+      })
+ 
     });
   </script>
   <body>
@@ -31,10 +38,10 @@
         background-color: rgb(155, 221, 155);
         color: green;
         font-style: italic;
-        display: none;
+  
       "
     >
-      Login Success
+
     </h2>
     <button class="loginButton">Login</button>
     <button id="stop">Stop</button>

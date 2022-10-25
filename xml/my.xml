@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- <?xml-stylesheet href="style.css" type="text/css"?> -->
-<?xml-stylesheet href="style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="index.xsl" type="text/xsl"?>
 
 <stores>
 
-<store>
-        <name id= "myname" >Diamond</name>
+    <store>
+        <name id="myname">Diamond</name>
         <owner>abc</owner>
         <address>karachi</address>
         <product>general</product>
 
-</store>
+    </store>
 
     <store>
         <name>Imtiaz</name>
@@ -29,6 +29,13 @@
         <owner>xyz</owner>
         <address>lahore</address>
         <product>electronics</product>
+    </store>
+    <store>
+        <name id="myname">Diamond</name>
+        <owner>abc</owner>
+        <address>karachi</address>
+        <product>general</product>
+
     </store>
 
 
